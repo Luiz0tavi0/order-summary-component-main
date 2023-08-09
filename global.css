@@ -1,0 +1,23 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* Colors */
+:root {
+    /*Primary */
+    --white: hsla(0, 96%, 100%, 0.97);
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+
+    /* Neutral */
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    font: 16px 'Red Hat Display', sans-serif;    
+}
